@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:scf-config="http://www.lifany.com/demo/sc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.lifany.com/demo/sc
+    http://www.lifany.com/demo/sc-1.0.xsd">
+
+    <scf-config:annotation-support componentName="TestBundle" />
+
+    <bean id="foobarService" class="com.lifany.demo.sc.FoobarService"></bean>
+</beans>

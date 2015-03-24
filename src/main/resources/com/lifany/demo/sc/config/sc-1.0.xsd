@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns="http://www.lifany.com/demo/sc"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.lifany.com/demo/sc"
+            elementFormDefault="qualified">
+
+    <xsd:element name="annotation-support">
+        <xsd:annotation>
+            <xsd:documentation>Process Annotation Configuration</xsd:documentation>
+        </xsd:annotation>
+
+        <xsd:complexType>
+            <xsd:attribute name="componentName" type="xsd:string" />
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
